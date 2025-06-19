@@ -100,6 +100,10 @@ h3{
 
 @media screen and (max-width: 768px){
 
+.home{
+    background-color: #E87792;
+}
+
 .circle img{
         width: 100px;
 }
