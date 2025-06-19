@@ -18,12 +18,20 @@
         <h1>Flores Carvalho</h1>
         <h2>FLORES E PRESENTES</h2>
         
-        <button>CATÁLOGO</button>
+        <button id="catalogo">CATÁLOGO</button>
         <button>WHATSAPP</button>
         <button>LOCALIZAÇÃO</button>
         <h3>@FloresCarvalho</h3>
 
          <img class="flowers2" src="img/flowers.png" alt="">
     </main>
+
+    <script>
+        const catalogo = document.querySelector('#catalogo')
+
+        catalogo.addEventListener('click', ()=>{
+            location.href = 'catalogo.html'
+        })
+    </script>
 </body>
 </html>
