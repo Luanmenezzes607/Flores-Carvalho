@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to top,rgba(219, 3, 104, 0.563) 1%, rgba(220, 117, 160, 0.338) 100%);
+}
+
+main h1{
+    text-align: center;
+    margin: 50px 0px 0px 0px;
+    font-size: 50px;
+    font-weight: 100;
+    font-family: "Great Vibes";
+    color: #db0368 ;
+}
+
+.catalogo{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 50px 0px;
+}
+
+.produto .img{
+    width: 180px;
+    height: 180px;
+    margin: auto;
+}
+
+.produto .img img{
+    width: 100%;
+    height: 100%;
+}
+
+.produto{
+    text-align: center;
+    width: 220px;
+    background-color: rgba(220, 230, 238, 0.46);
+    box-shadow: 3px 9px 22px -5px rgba(0,0,0,0.59);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px 10px;
+    position: relative;
+    height: 360px;
+}
+
+.produto h3{
+    margin: 10px 0px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: "Red Hat Display";
+}
+
+.preco{
+    padding: 10px 20px;
+    width:150px;
+    margin: 0px auto 10px auto;
+    background-color: #d71570a8;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'DM Sans';
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    color: rgb(11, 12, 13);
+}
+
+/*============================================================*/
+
+
+
+
+
+@media screen and (max-width: 768px){
+
+
+main h1{
+    font-size: 30px;
+}
+
+.catalogo{
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 0px;
+}
+
+.produto .img{
+    width: 130px;
+    height: 130px;
+    margin: auto;
+}
+
+.produto{
+    width: 150px;
+    padding: 10px;
+    height: 250px;
+}
+
+.produto h3{
+    margin: 10px 0px;
+    font-size: 14px;
+}
+
+.preco{
+    padding: 10px 20px;
+    width: 100px;
+    margin: 0px auto 10px auto;
+    font-size: 10px;
+    bottom: 0px;
+}
+
+
+}
