@@ -19,8 +19,8 @@
         <h2>FLORES E PRESENTES</h2>
         
         <button id="catalogo">CATÁLOGO</button>
-        <button>WHATSAPP</button>
-        <button>LOCALIZAÇÃO</button>
+        <button id="zap">WHATSAPP</button>
+        <button id="loc">LOCALIZAÇÃO</button>
         <h3>@FloresCarvalho</h3>
 
          <img class="flowers2" src="img/flowers.png" alt="">
@@ -28,9 +28,19 @@
 
     <script>
         const catalogo = document.querySelector('#catalogo')
+        const whatsapp = document.querySelector('#zap')
+        const localizacao = document.querySelector('#loc')
 
         catalogo.addEventListener('click', ()=>{
             location.href = 'catalogo.html'
+        })
+
+        whatsapp.addEventListener('click', ()=>{
+             location.href = 'https://wa.me/5573991554931?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido'
+        })
+
+        localizacao.addEventListener('click', ()=>{
+            location.href = 'https://maps.app.goo.gl/U5ZnSCUuMEPSGfKU7'
         })
     </script>
 </body>
