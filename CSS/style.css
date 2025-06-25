@@ -64,7 +64,7 @@ h1{
     font-size: 70px;
     font-family: "Great Vibes";
     font-weight: 100;
-    color: #f5338e66;
+    color: #995C63;
 }
 
 h2{
@@ -82,8 +82,10 @@ button{
     font-family: 'DM Sans';
     font-weight: 500;
     border-radius: 50px;
-    border: 2px solid #ffffffab;
+    border: 2px solid #ffffff73;
     background-color: #ee5e9369;
+    color:#995C63;
+    box-shadow: 3px 7px 15px -5px rgba(0,0,0,0.59);
 }
 
 h3{
